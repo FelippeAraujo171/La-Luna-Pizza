@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Luna Pizzaria &amp; Delivery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Baloo+2:wght@500;600;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav-inner">
+    <div class="brand">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M12 2c1.2 2 1.6 3.4.6 4.8-.9 1.2-.2 2.2.6 2.2 1.4 0 2.4-1.4 2.2-3C17.6 8 19 10 19 12.5 19 17 15.5 20 12 20s-7-3-7-7.5C5 9 6.6 6.6 8.6 5.2 8 7 8.6 8.6 10 8.6c1 0 1.6-.8 1.2-1.8C10.6 5.4 10.8 3.6 12 2z" fill="currentColor" stroke="currentColor" stroke-width="0.5"/></svg>
+      <span class="brand-text logo-script">La Luna</span>
+    </div>
+    <nav class="links">
+      <a href="#inicio">Início</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#bebidas">Bebidas</a>
+      <a href="#local">Local</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="nav-cta" href="https://wa.me/5519986018068" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.9 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.3-.5-4.7-1.4l-.3-.2-2.8.9.9-2.7-.2-.3C4 15 3.5 13.5 3.5 12c0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.8 8.5-8.5 8.5zm4.6-6.3c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.3-1.6-1.5-1.9-.1-.3 0-.4.1-.5.1-.1.3-.3.4-.5.2-.1.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3s1 2.7 1.1 2.9c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+      <span class="long">Pedir no Whats</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+  <div class="wrap mobile-menu" id="mobileMenu">
+    <a href="#inicio">Início</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#bebidas">Bebidas</a>
+    <a href="#local">Local</a>
+    <a href="#contato">Contato</a>
+  </div>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="wrap hero-inner">
+    <div>
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        Aberto de Seg a Seg
+      </span>
+      <h1>
+        <svg class="flame" viewBox="0 0 24 24" fill="none"><path d="M12 2c1.2 2 1.6 3.4.6 4.8-.9 1.2-.2 2.2.6 2.2 1.4 0 2.4-1.4 2.2-3C17.6 8 19 10 19 12.5 19 17 15.5 20 12 20s-7-3-7-7.5C5 9 6.6 6.6 8.6 5.2 8 7 8.6 8.6 10 8.6c1 0 1.6-.8 1.2-1.8C10.6 5.4 10.8 3.6 12 2z" fill="currentColor"/></svg>
+        La Luna
+      </h1>
+      <div class="tagline-bar"><span>PIZZARIA · DELIVERY</span></div>
+      <p class="desc">Massa fermentada devagar, borda dourada e recheio generoso. Monte seu pedido e mande direto pra gente pelo WhatsApp.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#cardapio">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+          Ver cardápio
+        </a>
+        <a class="btn btn-secondary" href="https://wa.me/5519986018068" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.9 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+          Peça pelo WhatsApp
+        </a>
+      </div>
+      <div class="hero-hours">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        Horário: De Seg a Seg · 18:00 às 23:00
+      </div>
+    </div>
+
+    <div class="pizza-wrap">
+      <svg class="pizza-spin" viewBox="0 0 400 400">
+        <g>
+          <circle cx="200" cy="200" r="188" fill="#C11F32"/>
+          <circle cx="200" cy="200" r="168" fill="#F6B221"/>
+          <g id="slices"></g>
+          <circle cx="200" cy="200" r="168" fill="none" stroke="#87101F" stroke-width="4"/>
+        </g>
+      </svg>
+      <div class="pizza-center-label">
+        <strong>Forno a</strong>
+        <span>LENHA</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="cardapio">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Cardápio</span>
+      <h2>Sabores que já nasceram <em>clássicos</em></h2>
+      <p>Escolha o tamanho e clique em adicionar — seu pedido vai se somando no carrinho aí embaixo. Tamanhos: Broto (4 fatias) e Grande (8 fatias).</p>
+    </div>
+
+    <h3 class="menu-group-title">Tradicionais</h3>
+    <div class="pizza-grid">
+      <div class="pizza-card" data-name="Mussarela" data-broto="26" data-grande="42">
+        <div class="card-top">
+          <div class="pizza-card-info">
+            <h3>Mussarela</h3>
+            <p>Molho de tomate, mussarela e orégano.</p>
+          </div>
+          <div class="price-tag"><span class="p-big">R$ 42</span><span class="p-small">Broto R$ 26</span></div>
+        </div>
+        <div class="card-actions">
+          <div class="size-toggle">
+            <button type="button" class="size-btn" data-size="broto">Broto</button>
+            <button type="button" class="size-btn active" data-size="grande">Grande</button>
+          </div>
+          <button type="button" class="add-btn" data-add-pizza>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            Adicionar
+          </button>
+        </div>
+      </div>
+
+      <div class="pizza-card" data-name="Calabresa" data-broto="28" data-grande="45">
+        <div class="card-top">
+          <div class="pizza-card-info">
+            <h3>Calabresa</h3>
+            <p>Calabresa fatiada, cebola roxa e orégano.</p>
+          </div>
+          <div class="price-tag"><span class="p-big">R$ 45</span><span class="p-small">Broto R$ 28</span></div>
+        </div>
+        <div class="card-actions">
+          <div class="size-toggle">
+            <button type="button" class="size-btn" data-size="broto">Broto</button>
+            <button type="button" class="size-btn active" data-size="grande">Grande</button>
+          </div>
+          <button type="button" class="add-btn" data-add-pizza>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            Adicionar
+          </button>
+        </div>
+      </div>
+
+      <div class="pizza-card" data-name="Napolitana" data-broto="27" data-grande="44">
+        <div class="card-top">
+          <div class="pizza-card-info">
+            <h3>Napolitana</h3>
+            <p>Tomate fatiado, alho, parmesão e azeite.</p>
+          </div>
+          <div class="price-tag"><span class="p-big">R$ 44</span><span class="p-small">Broto R$ 27</span></div>
+        </div>
+        <div class="card-actions">
+          <div class="size-toggle">
+            <button type="button" class="size-btn" data-size="broto">Broto</button>
+            <button type="button" class="size-btn active" data-size="grande">Grande</button>
+          </div>
+          <button type="button" class="add-btn" data-add-pizza>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            Adicionar
+          </button>
+        </div>
+      </div>
+
+      <div class="pizza-card" data-name="Marguerita" data-broto="29" data-grande="47">
+        <div class="card-top">
+          <div class="pizza-card-info">
+            <h3>Marguerita</h3>
+            <p>Tomate fresco, manjericão e mussarela de búfala.</p>
+          </div>
+          <div class="price-tag"><span class="p-big">R$ 47</span><span class="p-small">Broto R$ 29</span></div>
+        </div>
+        <div class="card-actions">
+          <div class="size-toggle">
+            <button type="button" class="size-btn" data-size="broto">Broto</button>
+            <button type="button" class="size-btn active" data-size="grande">Grande</button>
+          </div>
+          <button type="button" class="add-btn" data-add-pizza>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            Adicionar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="menu-group-title">Especiais</h3>
+    <div class="pizza-grid">
+      <div class="pizza-card" data-name="Portuguesa" data-broto="30" data-grande="48">
+        <div class="card-top">
+          <div class="pizza-card-info">
+            <h3>Portuguesa</h3>
+            <p>Presunto, ovos, cebola, azeitona e mussarela.</p>
+          </div>
+          <div class="price-tag"><span class="p-big">R$ 48</span><span class="p-small">Broto R$ 30</span></div>
+        </div>
+        <div class="card-actions">
+          <div class="size-toggle">
+            <button type="button" class="size-btn" data-size="broto">Broto</button>
+            <button type="button" class="size-btn active" data-size="grande">Grande</button>
+          </div>
+          <button type="button" class="add-btn" data-add-pizza>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            Adicionar
+          </button>
+        </div>
+      </div>
+
+      <div class="pizza-card" data-name="Frango com Catupiry" data-broto="30" data-grande="49">
+        <div class="card-top">
+          <div class="pizza-card-info">
+            <h3>Frango com Catupiry</h3>
+            <p>Frango desfiado, catupiry cremoso e milho.</p>
+          </div>
+          <div class="price-tag"><span class="p-big">R$ 49</span><span class="p-small">Broto R$ 30</span></div>
+        </div>
+        <div class="card-actions">
+          <div class="size-toggle">
+            <button type="button" class="size-btn" data-size="broto">Broto</button>
+            <button type="button" class="size-btn active" data-size="grande">Grande</button>
+          </div>
+          <button type="button" class="add-btn" data-add-pizza>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            Adicionar
+          </button>
+        </div>
+      </div>
+
+      <div class="pizza-card" data-name="Bacon" data-broto="31" data-grande="49">
+        <div class="card-top">
+          <div class="pizza-card-info">
+            <h3>Bacon</h3>
+            <p>Bacon crocante, mussarela e cebola caramelizada.</p>
+          </div>
+          <div class="price-tag"><span class="p-big">R$ 49</span><span class="p-small">Broto R$ 31</span></div>
+        </div>
+        <div class="card-actions">
+          <div class="size-toggle">
+            <button type="button" class="size-btn" data-size="broto">Broto</button>
+            <button type="button" class="size-btn active" data-size="grande">Grande</button>
+          </div>
+          <button type="button" class="add-btn" data-add-pizza>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            Adicionar
+          </button>
+        </div>
+      </div>
+
+      <div class="pizza-card" data-name="Quatro Queijos" data-broto="31" data-grande="50">
+        <div class="card-top">
+          <div class="pizza-card-info">
+            <h3>Quatro Queijos</h3>
+            <p>Mussarela, provolone, parmesão e catupiry.</p>
+          </div>
+          <div class="price-tag"><span class="p-big">R$ 50</span><span class="p-small">Broto R$ 31</span></div>
+        </div>
+        <div class="card-actions">
+          <div class="size-toggle">
+            <button type="button" class="size-btn" data-size="broto">Broto</button>
+            <button type="button" class="size-btn active" data-size="grande">Grande</button>
+          </div>
+          <button type="button" class="add-btn" data-add-pizza>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            Adicionar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="menu-group-title">Vegetarianas</h3>
+    <div class="pizza-grid">
+      <div class="pizza-card" data-name="Vegetariana" data-broto="27" data-grande="44">
+        <div class="card-top">
+          <div class="pizza-card-info">
+            <h3>Vegetariana</h3>
+            <p>Pimentão, milho, ervilha, palmito e azeitona.</p>
+          </div>
+          <div class="price-tag"><span class="p-big">R$ 44</span><span class="p-small">Broto R$ 27</span></div>
+        </div>
+        <div class="card-actions">
+          <div class="size-toggle">
+            <button type="button" class="size-btn" data-size="broto">Broto</button>
+            <button type="button" class="size-btn active" data-size="grande">Grande</button>
+          </div>
+          <button type="button" class="add-btn" data-add-pizza>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            Adicionar
+          </button>
+        </div>
+      </div>
+
+      <div class="pizza-card" data-name="Rúcula com Tomate Seco" data-broto="28" data-grande="46">
+        <div class="card-top">
+          <div class="pizza-card-info">
+            <h3>Rúcula com Tomate Seco</h3>
+            <p>Mussarela, rúcula fresca, tomate seco e parmesão.</p>
+          </div>
+          <div class="price-tag"><span class="p-big">R$ 46</span><span class="p-small">Broto R$ 28</span></div>
+        </div>
+        <div class="card-actions">
+          <div class="size-toggle">
+            <button type="button" class="size-btn" data-size="broto">Broto</button>
+            <button type="button" class="size-btn active" data-size="grande">Grande</button>
+          </div>
+          <button type="button" class="add-btn" data-add-pizza>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            Adicionar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="menu-group-title">Doces</h3>
+    <div class="pizza-grid">
+      <div class="pizza-card" data-name="Chocolate com Morango" data-broto="25" data-grande="40">
+        <div class="card-top">
+          <div class="pizza-card-info">
+            <h3>Chocolate com Morango</h3>
+            <p>Chocolate ao leite derretido e morangos frescos.</p>
+          </div>
+          <div class="price-tag"><span class="p-big">R$ 40</span><span class="p-small">Broto R$ 25</span></div>
+        </div>
+        <div class="card-actions">
+          <div class="size-toggle">
+            <button type="button" class="size-btn" data-size="broto">Broto</button>
+            <button type="button" class="size-btn active" data-size="grande">Grande</button>
+          </div>
+          <button type="button" class="add-btn" data-add-pizza>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            Adicionar
+          </button>
+        </div>
+      </div>
+
+      <div class="pizza-card" data-name="Banana com Canela" data-broto="24" data-grande="38">
+        <div class="card-top">
+          <div class="pizza-card-info">
+            <h3>Banana com Canela</h3>
+            <p>Banana caramelizada, canela e leite condensado.</p>
+          </div>
+          <div class="price-tag"><span class="p-big">R$ 38</span><span class="p-small">Broto R$ 24</span></div>
+        </div>
+        <div class="card-actions">
+          <div class="size-toggle">
+            <button type="button" class="size-btn" data-size="broto">Broto</button>
+            <button type="button" class="size-btn active" data-size="grande">Grande</button>
+          </div>
+          <button type="button" class="add-btn" data-add-pizza>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            Adicionar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="bebidas">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Bebidas</span>
+      <h2>Pra acompanhar, <em>gelada</em></h2>
+      <p>Refrigerantes e água mineral direto da geladeira, entregues junto com sua pizza.</p>
+    </div>
+
+    <div class="drink-grid">
+      <div class="drink-card" data-name="Coca-Cola 2L" data-price="14">
+        <svg class="drink-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3h8l-1 4H9L8 3z"/><path d="M9 7l1.5 13a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1L15 7"/><path d="M9.5 12h5"/></svg>
+        <div class="drink-info"><h3>Coca-Cola 2L</h3><span class="p-big">R$ 14</span></div>
+        <button type="button" class="drink-add" data-add-drink aria-label="Adicionar Coca-Cola 2L">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </div>
+
+      <div class="drink-card" data-name="Coca-Cola Lata" data-price="6">
+        <svg class="drink-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="8" y="3" width="8" height="18" rx="2"/><path d="M8 8h8"/></svg>
+        <div class="drink-info"><h3>Coca-Cola Lata</h3><span class="p-big">R$ 6</span></div>
+        <button type="button" class="drink-add" data-add-drink aria-label="Adicionar Coca-Cola Lata">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </div>
+
+      <div class="drink-card" data-name="Guaraná Antarctica 2L" data-price="13">
+        <svg class="drink-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3h8l-1 4H9L8 3z"/><path d="M9 7l1.5 13a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1L15 7"/><path d="M9.5 12h5"/></svg>
+        <div class="drink-info"><h3>Guaraná Antarctica 2L</h3><span class="p-big">R$ 13</span></div>
+        <button type="button" class="drink-add" data-add-drink aria-label="Adicionar Guaraná Antarctica 2L">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </div>
+
+      <div class="drink-card" data-name="Guaraná Lata" data-price="6">
+        <svg class="drink-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="8" y="3" width="8" height="18" rx="2"/><path d="M8 8h8"/></svg>
+        <div class="drink-info"><h3>Guaraná Lata</h3><span class="p-big">R$ 6</span></div>
+        <button type="button" class="drink-add" data-add-drink aria-label="Adicionar Guaraná Lata">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </div>
+
+      <div class="drink-card" data-name="Fanta Laranja Lata" data-price="6">
+        <svg class="drink-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="8" y="3" width="8" height="18" rx="2"/><path d="M8 8h8"/></svg>
+        <div class="drink-info"><h3>Fanta Laranja Lata</h3><span class="p-big">R$ 6</span></div>
+        <button type="button" class="drink-add" data-add-drink aria-label="Adicionar Fanta Laranja Lata">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </div>
+
+      <div class="drink-card" data-name="Água Mineral 500ml" data-price="4">
+        <svg class="drink-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3c3 4 5 6.5 5 10a5 5 0 0 1-10 0c0-3.5 2-6 5-10z"/></svg>
+        <div class="drink-info"><h3>Água Mineral 500ml</h3><span class="p-big">R$ 4</span></div>
+        <button type="button" class="drink-add" data-add-drink aria-label="Adicionar Água Mineral 500ml">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="local">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Onde estamos</span>
+      <h2>Venha buscar ou <em>peça em casa</em></h2>
+      <p>Também atendemos para retirada no balcão, sem taxa de entrega.</p>
+    </div>
+    <div class="map-frame">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1006.7844844827606!2d-47.15921946644002!3d-22.937139200525927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b76954c3dccf%3A0x61fadf2d2bee5f9!2sLa%20Luna!5e1!3m2!1spt-BR!2sbr!4v1783043604181!5m2!1spt-BR!2sbr" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Mapa La Luna Pizzaria"></iframe>
+    </div>
+    <div class="map-cta">
+      <a class="btn btn-primary" href="https://maps.app.goo.gl/wa8GNXTayqUEoFPT8" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Ver no Google Maps
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contato">
+  <div class="wrap contact-inner">
+    <div>
+      <h2>Disk Entrega</h2>
+      <p class="lead">Ligue, chame no WhatsApp ou passe aqui na loja. Sua La Luna sai quentinha em instantes.</p>
+      <div class="contact-list">
+        <a class="contact-item" href="tel:+551730547122">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.5 2.1L8 10.1a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c1 .4 2 .6 3 .7a2 2 0 0 1 1.6 2z"/></svg>
+          3054-7122
+        </a>
+        <a class="contact-item" href="tel:+551730546951">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.5 2.1L8 10.1a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c1 .4 2 .6 3 .7a2 2 0 0 1 1.6 2z"/></svg>
+          3054-6951
+        </a>
+        <a class="contact-item whats" href="https://wa.me/5519986018068" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.9 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+          (19) 98601-8068 · WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <div class="hours-card">
+      <h3>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        Horário de funcionamento
+      </h3>
+      <div class="hours-row"><span>Segunda a Domingo</span><span>18:00 – 23:00</span></div>
+      <div class="hours-row"><span>Pedido mínimo delivery</span><span>R$ 30</span></div>
+      <div class="hours-row"><span>Retirada no local</span><span>Disponível</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="flogo">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M12 2c1.2 2 1.6 3.4.6 4.8-.9 1.2-.2 2.2.6 2.2 1.4 0 2.4-1.4 2.2-3C17.6 8 19 10 19 12.5 19 17 15.5 20 12 20s-7-3-7-7.5C5 9 6.6 6.6 8.6 5.2 8 7 8.6 8.6 10 8.6c1 0 1.6-.8 1.2-1.8C10.6 5.4 10.8 3.6 12 2z" fill="currentColor"/></svg>
+      <span class="brand-text logo-script">La Luna</span>
+    </div>
+    <p>Pizzaria &amp; Delivery · De Seg a Seg, 18:00 às 23:00</p>
+    <p>© <span id="year"></span> La Luna Pizzaria. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- ---------- CART UI ---------- -->
+<button class="cart-fab" id="cartFab" aria-label="Abrir carrinho">
+  <span class="cart-fab-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+    <span class="badge" id="cartBadge" style="display:none;">0</span>
+  </span>
+  <span class="subtotal" id="cartSubtotal"></span>
+</button>
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<aside class="cart-drawer" id="cartDrawer">
+  <div class="cart-header">
+    <h3>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+      Seu carrinho
+    </h3>
+    <button class="cart-close" id="cartClose" aria-label="Fechar carrinho">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+
+  <div class="cart-body" id="cartBody"></div>
+
+  <div class="cart-footer">
+    <div class="cart-total-row">
+      <span>Total</span>
+      <strong id="cartTotalValue">R$ 0,00</strong>
+    </div>
+    <p class="cart-note">Taxa de entrega e forma de pagamento são combinadas com a gente pelo WhatsApp.</p>
+    <button class="cart-send-btn" id="cartSendBtn" disabled>
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.9 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+      Enviar pedido pelo WhatsApp
+    </button>
+    <button class="clear-cart-link" id="clearCartLink" type="button">Esvaziar carrinho</button>
+  </div>
+</aside>
+
+<div class="toast" id="toast">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+  <span id="toastMsg"></span>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
